@@ -1,0 +1,17 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "Api that gets the latest news around the world",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js"
+  },
+  "author": "Dominic Reinmann",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
