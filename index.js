@@ -7,7 +7,6 @@ const app = express();
 const url = "https://www.newsnow.co.uk/h/World+News";
 const articles = [];
 
-
 //
 app.get("/news", (req, res) => {
   axios(url)
@@ -32,3 +31,4 @@ app.get("/news", (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`server running on PORT: ${PORT}`));
+
